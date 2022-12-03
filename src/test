@@ -1,0 +1,32 @@
+import React, {useEffect, useState} from 'react'
+import axios from 'axios';
+import {useNavigate} from "react-router-dom"
+
+const BooksList = () => {
+
+    const navigate= useNavigate();
+
+    const token = (localStorage.getItem('AUTH_TOKEN')).toString()
+    console.log(token);
+    // const fetchData = async () =>{
+    //     const resp = await axios(
+    //         {
+    //             method: 'get',
+    //             url: 'http://localhost:4000/book',
+    //             headers: {Authorization: 'test'+ ' ' + token}
+    //         }      
+    //         )
+
+    //         console.log(resp);
+    // }
+    // useEffect(()=>{
+    //     fetchData()
+    // }, ([]));
+
+
+  return (
+    <div>BooksList</div>
+  )
+}
+
+export default BooksList

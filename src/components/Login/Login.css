@@ -1,0 +1,14 @@
+.body{
+    background-color: orange;
+    margin:0;
+    padding: 0;
+}
+
+.member-login{
+    width:320px;
+    height:420px;
+    background-color: #ffff;
+    color:#000;
+    top:50%
+
+}
